@@ -1,0 +1,337 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans)
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700)
+
+$break-hp: "only screen and (max-width : 400px)"
+$tc-light: #ed6333
+$tc-dark: #343434
+$tc-monokai: #524F52
+$tc-red: #bc423b
+$tc-blue: #2732b0
+$tc-green: #167f10
+$tc-white: #fafafa
+
+html, body
+  height: 100%
+
+body
+  color: $tc-white
+  background-color: $tc-red
+
+h1
+  text-align: center
+
+body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-family: "Open Sans", "Ubuntu", Helvetica, Arial, sans-serif!important
+
+main
+  color: $tc-dark
+  max-width: 1000px
+  min-height: auto
+  height: auto !important
+  height: 100%
+  background-color: $tc-white
+  margin: 100px auto 100px auto
+  padding-top: 30px
+  padding-bottom: 30px
+  box-shadow: 0 0 10px #343434
+  ul
+    margin-top: 0.5em
+    li
+      margin-top: 0.8em
+
+footer
+  min-height: 200px
+  background-color: $tc-light
+  img.logo
+    display: inline
+    width: 96px
+    margin: 5px
+  img.icon
+    width: 16px
+    height: 16px
+
+#copyright
+  padding: 1em
+  background-color: $tc-dark
+  min-height: 50px
+
+section.dashboard h1
+  text-align: left
+
+strong
+  font-weight: 700
+
+input[type=submit]
+  height: 2.5em
+
+.login-container
+  min-height: 0
+
+.paper-footer
+  text-align: right
+
+#form-login
+  color: $tc-white
+  background-color: $tc-dark
+  border-radius: 10px
+  padding: 1em
+  display: block
+  margin: 20px auto
+  width: 400px
+  @media #{$break-hp}
+    width: 300px
+
+  fieldset
+    border: 0
+
+  h2
+    color: $tc-white
+
+  label
+    color: $tc-white
+
+form
+  fieldset
+    margin: 10px 0
+
+  legend
+    width: auto
+    margin: 5px 0
+    padding: 0 20px
+
+.form-daftar
+  width: 90%
+  margin-left: auto
+  margin-right: auto
+
+  fieldset
+    margin: 10px 0
+
+  legend
+    width: auto
+    margin: 5px 0
+    padding: 0 20px
+
+.btn-dasar
+  background-color: #667
+  border: 0
+  border-radius: 0
+  color: white
+  display: inline-block
+  min-height: 2.5em
+  min-width: 100px
+  padding: 7px 15px
+  text-align: center
+  transition: all 200ms ease
+
+.btn-dasar:visited, .btn-dasar:link
+  border: 0
+  text-decoration: none
+  color: white
+
+.btn-dasar:hover
+  background-color: $tc-light
+  border: 0
+  text-decoration: none
+
+.btn-dasar:active
+  color: $tc-dark
+  background-color: white
+  border: 0
+  text-decoration: none
+
+.btn-primary
+  background-color: $tc-blue
+  border: 0
+  border-radius: 0
+
+.btn-important
+  background-color: $tc-green
+
+.btn-disabled
+  background-color: #ccc
+  color: #999
+  display: inline-block
+  padding: 7px 15px
+  border-radius: 0
+  border: 1px solid white
+  transition: all 200ms ease
+  min-width: 100px
+  text-align: center
+
+.btn-disabled:hover, .btn-disabled:visited, .btn-disabled:link
+  background-color: #ccc
+  color: #999
+  cursor: inherit
+  text-decoration: none
+
+.bg-error
+  background-color: $tc-red
+  color: $tc-white
+  padding: 1rem
+
+.bg-success
+  background-color: $tc-green
+  color: $tc-white
+  padding: 1rem
+
+.help-block
+  color: $tc-dark
+
+.dashboard-action
+  white-space: nowrap
+  a, a:hover, a:link, a:visited, a:active
+    color: #82CDB9
+    padding: 2px 5px
+    display: inline-block
+
+  a:hover, a:active
+    color: $tc-monokai
+    text-decoration: none
+
+    span.glyphicon
+      color: $tc-dark
+
+$bgDefault      : $tc-dark
+$bgHighlight    : $tc-red
+$colDefault     : #ecf0f1
+$bgHover        : $tc-red
+$colHover       : white
+$dropDown       : false
+$navbar-height  : 70px
+
+.navbar-default
+  padding-left: 75px
+  background-color: $bgDefault
+  border-color: $bgDefault
+  border-bottom: 1px solid black
+  border-radius: 0
+  margin: 0
+  height: $navbar-height
+  .navbar-brand
+    color: $colDefault
+    font-weight: bold
+    img
+      width: 40px
+      height: auto
+      padding-top: 12px
+      padding-left: 0
+    &:hover, &:focus
+      color: white
+    //   background-color: $bgHover
+  .navbar-text
+    color: $colDefault
+    height: $navbar-height
+    margin-top: 0
+  .navbar-nav
+    > li
+      > a
+        color: $colDefault
+        transition: all 300ms ease
+        height: $navbar-height
+        &:hover, &:focus
+          background-color: $bgHover
+          color: $colHover
+      @if $dropDown
+        > .dropdown-menu
+          background-color: $bgDefault
+          > li > a
+            color: $colDefault
+            &:hover, &:focus
+              background-color: $bgHover
+              color: $colHover
+              background-color: $bgHighlight
+          .divider
+            background-color: $bgHighlight
+    > .active
+      > a, > a:hover, > a:focus
+        background-color: $bgHover
+        color: $colHover
+        background-color: $bgHighlight
+    > .open
+      > a, > a:hover, > a:focus
+        background-color: $bgHover
+        color: $colHover
+        background-color: $bgHighlight
+  .navbar-toggle
+    border-color: $bgHighlight
+    &:hover, &:focus
+      background-color: $bgHighlight
+    .icon-bar
+      background-color: $colDefault
+  .navbar-collapse,
+  .navbar-form
+    border-color: $colDefault
+  .navbar-link
+    color: $colDefault
+    &:hover
+      background-color: $bgHover
+      color: $colHover
+@media (max-width: 767px)
+  .navbar-default .navbar-nav .open .dropdown-menu
+    > li > a
+      color: $colDefault
+      &:hover, &:focus
+        background-color: $bgHover
+        color: $colHover
+    > .active
+      > a, > a:hover, > a:focus,
+        background-color: $bgHover
+        color: $colHover
+        background-color: $bgHighlight
+
+.timer
+  border-radius: 5px
+  float: right
+  font-weight: 700
+  padding: 0.5em 0 0.5em 0
+  margin: 1.4em 0.5em
+  text-align: center
+  transition: 200ms
+
+.timer.time-relax
+  background-color: #08f
+
+.timer.time-running
+  background-color: #0f8
+
+.timer.time-warning
+  background-color: #ff5
+  color: $tc-dark
+
+.timer.time-critical
+  background-color: #f02
+
+.navbar-brand, .navbar-nav li a, .navbar-text
+  line-height: $navbar-height
+  height: $navbar-height
+  padding-top: 0
+
+.nav-tabs
+  li.active a
+    background-color: $tc-red
+    color: white
+  li:hover.active a
+    background-color: $tc-light
+    color: white
+  li a
+    background-color: $tc-dark
+    color: white
+  li:hover a
+    background-color: $tc-light
+    color: white
+
+footer
+  a:visited, a:link
+    color: white
+    text-decoration: none
+
+.modal
+  p, h1, h2, h3, h4
+    color: black
+
+.question-image img
+  max-width: 95%
+
+.MathJax
+  margin: 2em 0.5em !important

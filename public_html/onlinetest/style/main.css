@@ -1,0 +1,13 @@
+.content-kiri {
+   	width:63%;
+	float:left;
+}
+
+.content-kanan {
+	width:25%;
+	float:right;
+}
+
+.tab-size{
+    width: 40px;
+}
