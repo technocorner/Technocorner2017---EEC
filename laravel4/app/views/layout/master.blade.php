@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Website Tes Online EEC Technocorner 2016">
+        <meta name="description" content="Website Tes Online EEC Technocorner 2017">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="/style/styles.min.css">
 
         <!-- Costum content per page -->
-        @yield('head', '<title>Technocorner 2016</title>')
+        @yield('head', '<title>Technocorner 2017</title>')
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -85,9 +85,8 @@
             </div>
             <div class="col-sm-7">
                 <h2>Kontak</h2>
-                <img src="//technocornerugm.com/img/icon-cp.png" class="icon"> 081914444145 (Azka) <br>
-<<<<<<< HEAD
-                <a href="mailto://technocorner2015@gmail.com"><img src="//technocornerugm.com/img/icon-alamat.png" class="icon"> technocorner2016@gmail.com</a> <br>
+                <img src="//technocornerugm.com/img/icon-cp.png" class="icon"> 0812228341503 (Adit)<br>
+                <a href="mailto://technocorner2015@gmail.com"><img src="//technocornerugm.com/img/icon-alamat.png" class="icon"> support@technocornerugm.com</a> <br>
                 <a href="//facebook.com/technocornerugm"><img src="//technocornerugm.com/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
                 <a href="//twitter.com/technocornerugm"><img src="//technocornerugm.com/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a> <br>
                 <a href="//ask.fm/technocornerugm"><img src="//technocornerugm.com/img/icon-sosmedaskfm.png" class="icon"> Ask TechnocornerUGM</a>
@@ -95,14 +94,13 @@
                 <a href="mailto://technocorner2015@gmail.com" target="_blank"><img src="//technocornerugm.com/img/icon-alamat.png" class="icon"> technocorner@ugm.ac.id</a> <br>
                 <a href="//facebook.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
                 <a href="//twitter.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a>
->>>>>>> ee7aa7e2128ac5ee6fa387b148fc2c3d06334309
              </div>
         </footer>
 
         <div id="copyright" class="col-sm-12">
             <div class="col-sm-8">
                 <p>
-                    Hak cipta © 2016 <br>
+                    Hak cipta © 2017 <br>
                     Tim Technocorner
                 </p>
             </div>

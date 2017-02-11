@@ -8,7 +8,7 @@
 
 @section('body')
   <main class="container-fluid login-container">
-    <h1 class="important">Tes Online<br/><small>Technocorner EEC 2016</small></h1>
+    <h1 class="important">Tes Online<br/><small>Technocorner EEC 2017</small></h1>
     <hr/>
     <div id="form-login">
         <h2>Login</h2>
@@ -42,13 +42,13 @@
 
         <div class="form-group">
             {{ Form::label('email', 'E-mail') }}
-            {{ Form::text('email', '', array('placeholder' => 'seseorang@suatutempat.com', 'class' => 'form-control' )) }}
+            {{ Form::text('email', '', array('placeholder' => 'Type Your Email', 'class' => 'form-control' )) }}
         </div>
 
 
         <div class="form-group">
             {{ Form::label('password', 'Password') }}
-            {{ Form::password('password', array('placeholder' => '**********', 'class' => 'form-control')) }}
+            {{ Form::password('password', array('placeholder' => 'Type Your Password', 'class' => 'form-control')) }}
         </div>
 
         <div class="form-group">
