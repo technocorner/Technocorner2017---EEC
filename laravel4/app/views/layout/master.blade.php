@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Website Tes Online EEC Technocorner 2016">
+        <meta name="description" content="Website Tes Online EEC Technocorner 2017">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="/style/styles.min.css">
 
         <!-- Costum content per page -->
-        @yield('head', '<title>Technocorner 2016</title>')
+        @yield('head', '<title>Technocorner 2017</title>')
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                <a href="#" class="navbar-brand"><img src="/img/headerlogo.png" class="img-responsive"></a>
+                <a href="" class="navbar-brand"><img src="/img/headerlogo.png" class="img-responsive"></a>
                 <!-- <a href="#" class="navbar-brand">TECHNOCORNER 2015</a> -->
                 </div>
 
@@ -73,36 +73,39 @@
         <!-- Add your site or application content here -->
         @yield('body', "Generic content")
 
+
+        <script src="/lib/jquery/jquery-1.10.2.min.js"></script>
+
+
+
         <footer>
             <div class="col-sm-offset-1 col-sm-4">
                 <h2>Dipersembahkan oleh</h2>
                 <a target="_blank" href="//ugm.ac.id">
-                    <img class="logo img-responsive"src="//technocornerugm.com/img/logo-ugm.png" alt="">
+                    <img class="logo img-responsive"src="//technocornerugm.com/images/logo-ugm.png" alt="">
                 </a>
                 <a target="_blank" href="//kmteti.ugm.ac.id">
-                    <img class="logo img-responsive"src="//technocornerugm.com/img/logo-kmteti.png" alt="">
+                    <img class="logo img-responsive"src="//technocornerugm.com/images/logo-kmteti.png" alt="">
                 </a>
             </div>
             <div class="col-sm-7">
                 <h2>Kontak</h2>
-                <img src="//technocornerugm.com/img/icon-cp.png" class="icon"> 081914444145 (Azka) <br>
-<<<<<<< HEAD
-                <a href="mailto://technocorner2015@gmail.com"><img src="//technocornerugm.com/img/icon-alamat.png" class="icon"> technocorner2016@gmail.com</a> <br>
-                <a href="//facebook.com/technocornerugm"><img src="//technocornerugm.com/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
-                <a href="//twitter.com/technocornerugm"><img src="//technocornerugm.com/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a> <br>
-                <a href="//ask.fm/technocornerugm"><img src="//technocornerugm.com/img/icon-sosmedaskfm.png" class="icon"> Ask TechnocornerUGM</a>
-=======
-                <a href="mailto://technocorner2015@gmail.com" target="_blank"><img src="//technocornerugm.com/img/icon-alamat.png" class="icon"> technocorner@ugm.ac.id</a> <br>
-                <a href="//facebook.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
-                <a href="//twitter.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a>
->>>>>>> ee7aa7e2128ac5ee6fa387b148fc2c3d06334309
+                <img src="//technocornerugm.com/images/img/icon-cp.png" class="icon"> 081228341503 (Adit) <br>
+                <a href="mailto://support@technocornerugm.com"><img src="//technocornerugm.com/images/img/icon-alamat.png" class="icon"> support@technocornerugm.com</a> <br>
+                <a href="//facebook.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
+                <a href="//twitter.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a> <br>
+                <a href="//ask.fm/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedaskfm.png" class="icon"> Ask TechnocornerUGM</a> <br>
+                <!-- <a href="mailto://technocorner2015@gmail.com"><img src="//technocornerugm.com/images/img/icon-alamat.png" class="icon"> technocorner@ugm.ac.id</a> <br> -->
+                <!-- <a href="//facebook.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
+                <a href="//twitter.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a>
+>>>>>>> ee7aa7e2128ac5ee6fa387b148fc2c3d06334309 -->
              </div>
         </footer>
 
         <div id="copyright" class="col-sm-12">
             <div class="col-sm-8">
                 <p>
-                    Hak cipta © 2016 <br>
+                    Hak cipta © 2017 <br>
                     Tim Technocorner
                 </p>
             </div>
@@ -121,13 +124,39 @@
         <script src="/lib/modernizr/modernizr-2.6.2.min.js"></script>
         <!-- Temporary commented
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
-		<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
+		    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
         <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
         <script src="/script/main.min.js"></script>
 
         @yield('script')
 
-        <script language="javascript">
+
+        <script>
+          $(document).ready(function(){
+              $(function () {
+                $('[data-toggle="popover"]').popover()
+              })
+
+              $("ul li:eq(4)").addClass("active");
+
+              $("#1").addClass("active");
+
+          })
+        </script>
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $("body").mouseover(function(){
+          for(var i=1; i<=45; i++){
+            if ($('div.tab-pane#'+ i +' input').is(':Checked')){
+              $('.nav-tabs li a[href=#'+ i +']').css("background-color" , "#3AADA2");
+            }
+          }
+          })
+        })
+        </script>
+
+        <!-- <script language="javascript">
             document.onmousedown=disableclick;
             status="Right Click Disabled";
             function disableclick(event)
@@ -140,7 +169,8 @@
             jQuery(document).bind("contextmenu cut copy",function(e){
                 e.preventDefault();
             });
-        </script>
+        </script> -->
+        <!-- harus di aktifkan lagi -->
 
         <script>
         /*  Google Analytics gak usah dipakai dulu
