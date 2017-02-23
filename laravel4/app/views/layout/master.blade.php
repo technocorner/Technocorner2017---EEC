@@ -95,10 +95,6 @@
                 <a href="//facebook.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
                 <a href="//twitter.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a> <br>
                 <a href="//ask.fm/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedaskfm.png" class="icon"> Ask TechnocornerUGM</a> <br>
-                <!-- <a href="mailto://technocorner2015@gmail.com"><img src="//technocornerugm.com/images/img/icon-alamat.png" class="icon"> technocorner@ugm.ac.id</a> <br> -->
-                <!-- <a href="//facebook.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedf.png" class="icon"> TechnocornerUGM</a> <br>
-                <a href="//twitter.com/technocornerugm" target="_blank"><img src="//technocornerugm.com/images/img/icon-sosmedt.png" class="icon"> @TechnocornerUGM</a>
->>>>>>> ee7aa7e2128ac5ee6fa387b148fc2c3d06334309 -->
              </div>
         </footer>
 
