@@ -4,16 +4,19 @@
 
   <main class="container-fluid">
     <h1>
-      BABAK PENYISIHAN EEC 2016 <br>
+      BABAK PENYISIHAN EEC 2017 <br>
       <small>Mata pelajaran {{ ucwords((Input::get('mapel')? Input::get('mapel') : 'matematika')) }}</small>
     </h1>
     <hr/>
 
-    <!-- <div>
-      <button class="btn" id="tandai">Tandai Soal</button>
-      <button class="btn" id="hilangkan">Hilangkan tanda</button>
-    </div>
-    <hr/> -->
+      <a href="" class="btn btn-primary" id="simpan">Simpan Jawaban Sementara</a>
+      <button class="btn btn-info" data-toggle="popover" data-placement="right" title="Simpan Jawaban Sementara" id="tanya"
+      data-content="Tombol 'Simpan Jawaban Sementara' digunakan untuk meng-update jawaban ke server, bukan untuk mengakhiri ujian.">?</button>
+      <button type="button" class="btn btn-info-2 right" data-toggle="modal" data-target="#petunjukumum">
+        Petunjuk Umum Seleksi Online EEC
+      </button>
+
+    <hr/>
 
       {{ Form::open([
         'route' => 'participant.exam.showConfirmFinish',
@@ -119,9 +122,48 @@
         </div>
       </div>
 
-      {{ Form::submit('Selesai', ['class' => 'col-sm-offset-4 col-sm-4 btn btn-success', 'id' => 'submit-answer'])}}
+      {{ Form::submit('Selesai', ['class' => 'col-sm-offset-4 col-sm-4 btn btn-primary', 'id' => 'submit-answer'])}}
 
       {{ Form::close() }}
+      <button class="btn btn-info" data-toggle="popover" data-placement="right" title="Tombol Selesai" id="tanya"
+      data-content="Tombol 'Selesai' hanya boleh ditekan oleh salah satu peserta dalam tim, karena akan mengakhiri pengerjaan ujian.">?</button>
+
+      <!-- Modal petunjukumum -->
+      <div class="modal fade" id="petunjukumum" tabindex="-1" role=petunjukumum"dialogpetunjukumum" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Tombol "Selesai"</h4>
+            </div>
+            <div class="modal-body">
+              <ul>
+          	  <li>Soal terdiri dari 120 nomor soal pilihan ganda dengan 45 nomor soal matematika, 40 nomor soal fisika dan 35 nomor soal komputer.</li>
+              <li>
+                <strong>Satu akun</strong> yang diberikan oleh panitia dapat digunakan <strong>login pada 3 PC/Laptop</strong>, dengan demikian setiap anggota Tim dapat login pada PC/Laptop yang berbeda dan <strong>mengerjakan mata pelajaran berbeda</strong>.
+                <br>
+                <img src="https://technocornerugm.com/images/contoh.jpg" class="img-contoh" alt="">
+              </li>
+              <li>Peserta dapat menyimpan jawaban sementara ke server dengan cara <strong>berpindah mata pelajaran</strong> dan dengan cara klik tombol <strong>"Simpan Jawaban Sementara"</strong> pada halaman ujian. Contoh, setelah menjawab beberapa soal di matematika dan berpindah ke soal komputer, maka jawaban soal matematika akan otomatis tersimpan ke server.</li>
+              <li>Bacalah dengan cermat setiap soal dan pilihlah jawaban yang menurut Anda benar.</li>
+          	  <li>Ujian ini bersifat buku terbuka dan Anda diperkenankan menggunakan alat hitung.</li>
+          	  <li>Anda tidak diperkenankan untuk berdiskusi selain dengan sesama anggota tim sendiri.</li>
+          	  <li>Waktu ujian yang disediakan adalah 120 menit terhitung setelah tombol “MULAI UJIAN” ditekan.</li>
+          	  <li>Anda diberikan toleransi waktu untuk login (termasuk menekan tombol “MULAI UJIAN”) selama 30 menit (pukul 09.00 – 09.30 WIB). Setelah pukul 09.30 WIB, waktu ujian akan otomatis berjalan sehingga ujian berakhir selambat lambatnya pukul 11.30 WIB.</li>
+          	  <li>Jawaban yang benar akan diberi skor +4, jawaban yang kosong diberi skor 0, dan jawaban yang salah diberi skor -1.</li>
+          	  <li>Salin jawaban Anda ke secarik kertas untuk mengantisipasi hal-hal yang tidak dikehendaki.</li>
+              </ul>
+
+              <br><br>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div style="clear: both"></div>
 	  <hr/>
@@ -130,26 +172,11 @@
       </div>
   </main>
 
-  <script src="/lib/jquery/jquery-1.10.2.min.js"></script>
-  <script>
-    $(function(){
 
-        $("ul li:eq(4)").addClass("active");
 
-        $("#1").addClass("active");
-        
-        $(".content-kiri").click(function(){
-        for(var i=1; i<=45; i++){
-          if ($('div.tab-pane#'+ i +' input').is(':Checked')){
-            $('.nav-tabs li a[href=#'+ i +']').css("background-color" , "#3AADA2");
-          }
-        }
-        })
-    })
-  </script>
 
 @stop
 
 @section('script')
-  <script src="/script/exam.min.js"></script>
+  <script src="/script/exam.js"></script>
 @stop

@@ -11,3 +11,20 @@
 .tab-size{
     width: 40px;
 }
+
+.btn-info-2 {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    margin-left: 5px;
+}
+
+.img-contoh {
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+}
+
+.right {
+  float: right !important;
+}

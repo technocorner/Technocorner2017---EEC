@@ -18,11 +18,17 @@
     <h2>Petunjuk Umum Seleksi Online EEC</h2>
     <ul>
 	  <li>Soal terdiri dari 120 nomor soal pilihan ganda dengan 45 nomor soal matematika, 40 nomor soal fisika dan 35 nomor soal komputer.</li>
-	  <li>Bacalah dengan cermat setiap soal dan pilihlah jawaban yang menurut Anda benar.</li>
+    <li>
+      <strong>Satu akun</strong> yang diberikan oleh panitia dapat digunakan <strong>login pada 3 PC/Laptop</strong>, dengan demikian setiap anggota Tim dapat login pada PC/Laptop yang berbeda dan <strong>mengerjakan mata pelajaran berbeda</strong>.
+      <br>
+      <!-- <img src="https://technocornerugm.com/images/contoh.jpg" class="img-contoh" alt=""> -->
+    </li>
+    <li>Peserta dapat menyimpan jawaban sementara ke server dengan cara <strong>berpindah mata pelajaran</strong> dan dengan cara klik tombol <strong>"Simpan Jawaban Sementara"</strong> pada halaman ujian. Contoh, setelah menjawab beberapa soal di matematika dan berpindah ke soal komputer, maka jawaban soal matematika akan otomatis tersimpan ke server.</li>
+    <li>Bacalah dengan cermat setiap soal dan pilihlah jawaban yang menurut Anda benar.</li>
 	  <li>Ujian ini bersifat buku terbuka dan Anda diperkenankan menggunakan alat hitung.</li>
 	  <li>Anda tidak diperkenankan untuk berdiskusi selain dengan sesama anggota tim sendiri.</li>
-	  <li>Waktu ujian yang disediakan adalah 120 menit terhitung setelah tombol “bersiap ujian” ditekan.</li>
-	  <li>Anda diberikan toleransi waktu untuk login (termasuk menekan tombol “bersiap ujian”) selama 30 menit (pukul 09.00 – 09.30 WIB). Setelah pukul 09.30 WIB, waktu ujian akan otomatis berjalan sehingga ujian berakhir selambat lambatnya pukul 11.30 WIB.</li>
+	  <li>Waktu ujian yang disediakan adalah 120 menit terhitung setelah tombol “MULAI UJIAN” ditekan.</li>
+	  <li>Anda diberikan toleransi waktu untuk login (termasuk menekan tombol “MULAI UJIAN”) selama 30 menit (pukul 09.00 – 09.30 WIB). Setelah pukul 09.30 WIB, waktu ujian akan otomatis berjalan sehingga ujian berakhir selambat lambatnya pukul 11.30 WIB.</li>
 	  <li>Jawaban yang benar akan diberi skor +4, jawaban yang kosong diberi skor 0, dan jawaban yang salah diberi skor -1.</li>
 	  <li>Salin jawaban Anda ke secarik kertas untuk mengantisipasi hal-hal yang tidak dikehendaki.</li>
     </ul>

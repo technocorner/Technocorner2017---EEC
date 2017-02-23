@@ -1,12 +1,12 @@
 @extends('layout.master')
 
 @section('head')
-  <title>Technocorner 2016 - Dashboard Peserta</title>
+  <title>Technocorner 2017 - Dashboard Peserta</title>
 @stop
 
 @section('body')
   <main class="container-fluid">
-    <h1>Selamat Datang Peserta EEC 2016</h1>
+    <h1>Selamat Datang Peserta EEC 2017</h1>
     <hr/>
     <section class="dashboard">
       <h2>Detail Tim Kamu</h2>
@@ -101,11 +101,16 @@
       <ul>
         <li>Pastikan detail nama tim dan nama ketua tim sudah benar.</li>
         <li>Jika terdapat kesalahan pada detail tim kamu, segera laporkan ke admin Technocorner di <strong>technocorner@mail.ugm.ac.id</strong> atau melalui nomor yang tertera pada bagian bawah halaman</li>
-        <li>Setiap akun hanya boleh digunakan untuk 1 PC/Laptop./li>
-        <li>Sangat disarankan untuk melakukan Ujian Online dengan menggunakan desktop/PC dan browser modern (IE versi 10 ke atas, Google Chrome, Chromium, atau Firefox)</li>
-        <li>Peserta dapat menyimpan jawaban sementara ke server dengan cara berpindah mata pelajaran. Contoh, setelah menjawab beberapa soal di matematika dan berpindah ke soal komputer, maka jawaban soal matematika akan otomatis tersimpan ke server.</li>
-        <li>Setiap tim diberikan toleransi waktu untuk login (termasuk menekan tombol “bersiap ujian” selama 30 menit (pukul 09.00-09.30 WIB). Setelah lewat pukul 09.30 WIB, peserta tidak dapat masuk ke menu ujian dan peserta dinyatakan diskualifikasi.</li>
-        <li>Pastikan koneksi internet anda stabil, terutama saat meng-klik tombol “bersiap ujian”.</li>
+        <li>Setiap akun hanya boleh digunakan untuk maksimal 3 PC/Laptop.</li>
+        <li>
+          <strong>Satu akun</strong> yang diberikan oleh panitia dapat digunakan <strong>login pada 3 PC/Laptop</strong>, dengan demikian setiap anggota Tim dapat login pada PC/Laptop yang berbeda dan <strong>mengerjakan mata pelajaran berbeda</strong>.
+          <br>
+          <img src="https://technocornerugm.com/images/contoh.jpg" class="img-contoh" alt="">
+        </li>
+        <li>Sangat disarankan untuk melakukan Ujian Online dengan menggunakan <strong>desktop/PC dan browser modern</strong> (IE versi 10 ke atas, Google Chrome, Chromium, atau Firefox)</li>
+        <li>Peserta dapat menyimpan jawaban sementara ke server dengan cara <strong>berpindah mata pelajaran</strong> dan dengan cara klik tombol <strong>"Simpan Jawaban Sementara"</strong> pada halaman ujian. Contoh, setelah menjawab beberapa soal di matematika dan berpindah ke soal komputer, maka jawaban soal matematika akan otomatis tersimpan ke server.</li>
+        <li>Setiap tim diberikan toleransi waktu untuk login (termasuk menekan tombol <strong>"MULAI UJIAN"</strong> selama 30 menit (pukul 09.00-09.30 WIB). Setelah lewat pukul 09.30 WIB, peserta tidak dapat masuk ke menu ujian dan peserta dinyatakan diskualifikasi.</li>
+        <li>Pastikan koneksi internet anda stabil, terutama saat meng-klik tombol <strong>"MULAI UJIAN"</strong>.</li>
         <li>Refresh pada page ujian tidak mempengaruhi timer, timer tetap berjalan semestinya.</li>
         <li>Web seleksi Online EEC tidak menyediakan fitur print.</li>
         <li>Script soal pada web tidak dapat di-block atau di-copy.</li>
